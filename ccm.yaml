@@ -187,7 +187,7 @@ spec:
             - --v=2
             - --cloud-provider=aws
             - --configure-cloud-routes=false
-            - --cloud-config=/tmp/cloud-config
+            - --cloud-config=/etc/kubernetes/cloud-config
           resources:
             requests:
               cpu: 200m
