@@ -1,0 +1,11 @@
+namespace: "kube-system"
+
+args:
+  - --v=2
+  - --cloud-provider=aws
+  - --configure-cloud-routes=false
+
+image:
+    tag: v1.34.1
+
+hostNetworking: true
